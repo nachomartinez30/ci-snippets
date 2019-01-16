@@ -11,22 +11,22 @@ require APPPATH . '/libraries/Format.php';
 class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:Controllername}} extends ${2:REST}_Controller {
 
 		
-		function ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:Controllername}}_get()
+		function ${3:${TM_FILENAME/(.+)\..+|.*/\u$1/:Controllername}}_get()
 	    {
 	        
 	    }
 	     
-	    function ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:Controllername}}_post()
+	    function ${3:${TM_FILENAME/(.+)\..+|.*/\u$1/:Controllername}}_post()
 	    {       
 	        
 	    }
 	 
-	    function ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:Controllername}}_put()
+	    function ${3:${TM_FILENAME/(.+)\..+|.*/\u$1/:Controllername}}_put()
 	    {       
 	        
 	    }
 	 
-	    function ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:Controllername}}_delete()
+	    function ${3:${TM_FILENAME/(.+)\..+|.*/\u$1/:Controllername}}_delete()
 	    {
 	        
 	    }
