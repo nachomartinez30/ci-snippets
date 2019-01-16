@@ -35,7 +35,7 @@ class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:Controllername}} extends ${2:REST}_Con
 /* End of file ${TM_FILENAME:${1/(.+)/\l$1.php/}} */
 /* Location: ./${TM_FILEPATH/.+((?:application).+)/$1/:application/controllers/${1/(.+)/\l$1.php/}} */
 ]]></content>
-	<tabTrigger>API_Controller</tabTrigger>
+	<tabTrigger>api_controller</tabTrigger>
 	<scope>source.php, text.html.basic, text.plain</scope>
 	<description>CI - API_REST Controller</description>
 </snippet>
